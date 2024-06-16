@@ -1,0 +1,53 @@
+<%- include("partials/header"); -%>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 text-primary">Contact Us</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="text-secondary">Get in Touch</h4>
+                <p>Your gym experience is of the utmost importance to us. Was something a little off last time you stopped in for a workout? Feel like sharing a little victory or a major milestone? Please let us know by completing the form below.</p>
+                <ul class="list-unstyled">
+                    <li><strong>Address:</strong> 123 Fitness Blvd, Workout City, GX 45678</li>
+                    <li><strong>Phone:</strong> (123) 456-7890</li>
+                    <li><strong>Email:</strong> contact@gymwebsite.com</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4 class="text-secondary">Contact Form</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h4 class="text-center text-primary">Follow Us</h4>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-outline-primary mx-2">Facebook</a>
+                    <a href="#" class="btn btn-outline-info mx-2">Twitter</a>
+                    <a href="#" class="btn btn-outline-danger mx-2">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
